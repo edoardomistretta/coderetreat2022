@@ -1,0 +1,18 @@
+{
+  "extends": "facile/node",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "ignorePatterns": [
+    "./config/",
+    "./node_modules/"
+  ],
+  "rules": {
+    "node/no-unpublished-import": "off",
+    "node/no-missing-import": "off",
+    "no-nested-ternary": "off",
+    "@typescript-eslint/consistent-type-definitions": "off",
+    "@typescript-eslint/ban-ts-comment": "off",
+    "@typescript-eslint/unified-signatures": "off"
+  }
+}

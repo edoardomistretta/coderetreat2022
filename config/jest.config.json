@@ -1,0 +1,25 @@
+{
+  "testEnvironment": "node",
+  "rootDir": "../",
+  "collectCoverage": false,
+  "coverageDirectory": "coverage",
+  "coveragePathIgnorePatterns": [],
+  "collectCoverageFrom": [
+    "./src/**/*.ts"
+  ],
+  "modulePathIgnorePatterns": [
+    "./.git",
+    "./node_modules"
+  ],
+  "transform": {
+    "^.+\\.ts?$": ["ts-jest", {
+      "tsconfig": "./config/tsconfig.jest.json",
+      "compiler": "ttypescript"
+    }]
+  },
+  "moduleFileExtensions": [
+    "ts",
+    "js",
+    "json"
+  ]
+}
